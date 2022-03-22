@@ -1,0 +1,41 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  background-color: #ffeaa7;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 5px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.cards {
+  width: 20%;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid rgba(218, 218, 218, 0.589);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgb(180, 180, 180);
+  padding-top: 20px;
+  position: relative;
+  top: 80px;
+  text-align: center;
+  background-color: #ffe590;
+  filter: blur(1px);
+}
+
+.cards:hover {
+  background-color: #dbf5ffc7;
+  box-shadow: 0 15px 15px rgb(212, 212, 212);
+  filter: blur();
+}
