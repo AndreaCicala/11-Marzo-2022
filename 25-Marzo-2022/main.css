@@ -1,0 +1,171 @@
+* {
+  font-size: 18px;
+  color: #e27625;
+}
+
+body {
+  background-color: black;
+  font-family: "DM Sans", sans-serif;
+  color: #e27625;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+form > input {
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid #e27625;
+}
+
+form > input:hover {
+  background-color: #e27625;
+  color: white;
+  font-size: 20px;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #e27625;
+  margin-top: 2px;
+  margin-left: 2px;
+  padding: 4px;
+  color: grey;
+}
+
+select option {
+  margin: 40px;
+  background-color: black;
+  color: #e27625;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+h4 {
+  color: #eee;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  filter: blur();
+  font-size: 15px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+div {
+  width: 200px;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.logoImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  margin-bottom: 10px;
+}
+
+.titleh2 {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+}
+
+.card {
+  border: 1px solid #ffffff;
+  background-color: #e2772500;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  color: #e27625;
+}
+
+.cardImg {
+  width: 100%;
+  object-fit: fill;
+  border-radius: 5px;
+}
+
+.wrapperMovies {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 25px;
+  visibility: visible;
+}
+
+.wrapperMovies > div {
+  box-shadow: 0 0 8px 5px #ffffff2c;
+}
+
+.delImg {
+  visibility: hidden;
+  width: 15px;
+  position: relative;
+  cursor: pointer;
+  top: 10px;
+}
+
+.modal{
+  background-color: transparent;
+  visibility: hidden;
+  position: relative;
+  left: 50%;
+  bottom: 300px;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.modalDiv {
+  background-color: black;
+  width: 400px;
+  height: auto;
+  border: 2px solid white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalImg{
+  width: 100%;
+  object-fit: fill;
+  border-radius: 5px;
+}
+
+#title,
+#description,
+#poster,
+#year {
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #e27625;
+  
+}

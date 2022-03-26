@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <meta charset='utf-8'>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <title>MoviePlacer.Com</title>
+     <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+ </head>
+ <body>
+    <img src="https://i.ibb.co/xgwmPpS/Logo-animato-500x500-px-2.png" alt="Logo-animato-500x500-px-2" class="logoImg">
+    <h4>Add the <strong>film you want</strong> in our site:</h4>
+        <div class="header">
+            <form id="movieForm">
+                <label for="title">
+                    <input type="text" id="title" name="title" placeholder="Movie Title">
+                </label>
+                <label for="description">
+                    <input type="text" name="description" id="description" placeholder="Movie Description">
+                </label>
+                <label for="poster">
+                    <input type="text" name="poster" id="poster" placeholder="Film Image">
+                </label>
+                <label for="year">
+                    <input type="text" name="year" id="year" placeholder="Release Year">
+                </label>
+                <label for="genres">
+                    <select name="genres" id="genres" form="movieForm">
+                        <option value="">Choose genre</option>
+                        <option value="action">Action</option>
+                        <option value="drama">Drama</option>
+                        <option value="sci-fi">Sci-fi</option>
+                        <option value="romance">Romance</option>
+                        <option value="comedy">Comedy</option>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="animation">Animation</option>
+                    </select>
+                </label>
+                <input type="submit" name="submit" id="submit" value="Submit">       
+            </form>
+        </div>
+        <h2 class="h2title" id="h2">Here's your <strong>film</strong> list:</h2>
+        <div class="wrapperMovies"></div>
+    <div class="modal">
+    </div>
+    <script src='main.js'></script>
+    
+ </body>
+ </html>
